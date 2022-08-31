@@ -1,0 +1,22 @@
+.weicome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  img {
+    height: 20rem;
+  }
+  h1 {
+    color: white;
+  }
+  span {
+    color: #4e00ff;
+  }
+  h3 {
+    color: white;
+    span {
+      color: #4e00ff;
+    }
+  }
+}

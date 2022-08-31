@@ -1,0 +1,34 @@
+.login {
+  width: 100vw;
+  background-image: url(../../asset/images/u1.jpg);
+  margin: 0px auto;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .login_Row {
+    flex: 1;
+    min-width: 300px;
+    min-height: 300px;
+  }
+
+  #components-form-demo-normal-login .login-form {
+    padding-top: 300px;
+  }
+  #components-form-demo-normal-login .login-form-forgot {
+    float: right;
+  }
+  #components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  #components-form-demo-normal-login .login-form-button {
+    width: 100%;
+  }
+}
+.beian {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
